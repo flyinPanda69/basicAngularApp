@@ -1,0 +1,6 @@
+Run JSON server - npx json-server --watch db.json
+
+Compile and run -- ng s -o 
+
+installations :
+npm install -g json-server

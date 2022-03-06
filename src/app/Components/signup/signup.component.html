@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1>Restaurant Signup</h1>
+                    <h5>Get free registration </h5><hr>
+                </div>
+                <form [formGroup]="signUpForm">
+                    <div class="mb-3">
+                      <label class="form-label" aria-placeholder="Name">Name</label>
+                      <input type="text" formControlName="name" placeholder="Name" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label" aria-placeholder="Email">Email address</label>
+                        <input type="email"  formControlName="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-label" aria-placeholder="Mobile number">Mobile</label>
+                        <input type="text" formControlName="mobile" placeholder="Mobile number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+                    <div class="mb-3">
+                      <label class="form-label" aria-placeholder="Password">Password</label>
+                      <input type="password" formControlName="password" placeholder="Password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary" (click)="signUp()">Signup</button>
+                  </form>
+                  <a [routerLink]="['/login']" routerLinkActive="router-link-active" > Already an user ? Click to login!</a>
+            </div>
+        </div>
+    </div>
+</div>

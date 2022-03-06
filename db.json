@@ -1,0 +1,33 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "name": "Burger King",
+      "email": "burgerking@gmail.com",
+      "mobile": 9566193642,
+      "address": "Tilaiyantad",
+      "services": "Chai, Coffee"
+    },
+    {
+      "id": 3,
+      "name": "Burger King",
+      "email": "burgerking@gmail.com",
+      "mobile": 9566193642,
+      "address": "Tilaiyantad",
+      "services": "Burgers"
+    }
+  ],
+  "users": [
+    {
+      "name": "John Doe",
+      "mobile": "9988776655",
+      "email": "JohnDoe@gmail.com",
+      "password": "Joneisdoe",
+      "id": 1
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
